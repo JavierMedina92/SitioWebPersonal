@@ -76,14 +76,14 @@ a:hover {
     margin: 0 auto;
     text-align: center;
     font-size:larger;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .sombra {
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
@@ -102,12 +102,12 @@ a:hover {
         column-gap: 1rem;
 }
 
-h2 {
+.service {
     text-align: center;
     color: #cbf707;
 }
 
-h3 {
+.service-main {
     text-align: center;
     color: #cbf707;
 }
@@ -117,12 +117,12 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Sobre Mi */
+/*------------------------------------- Sobre Mi----------------------------------------------- */
 .dwjm
 {
     display: block;
     width: 500px;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("../../media/examples/lizard.png");
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
     padding: 10px 50px 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(240, 234, 147);
@@ -130,27 +130,32 @@ h3 {
     font-size: large;
 }
 
-.contenido-sm{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-} 
-
-.titulo-sm {
-    color: #ecf007;
-    padding-left: 95px;
-}
-
 .titulo {
     text-align: center;
-    color:#ecf007;
+    color: #e5f508;
     background: linear-gradient(rgb(14, 14, 221), rgb(204, 5, 187));
 }
 
-/* Contacto */
+.sobremi {
+    padding-left: 175px;
+    color: #ffd31a;
+}
+
+.expro {
+    padding-left: 100px;
+    color: #ffd31a;
+}
+
+
+
+/*------------------------------------- Sobre Mi----------------------------------------------- */
+
+/*-------------- Contacto --------------------------------------------------*/
 
 .contenido{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
 } 
 
 .pcontacto {
@@ -161,6 +166,7 @@ h3 {
     border-radius: 15px;
     padding-left: 20px;
     font-size: x-large;
+    padding: 20px;
 }
 
 .seccion {
@@ -171,7 +177,7 @@ h3 {
 
 .formacion {
     padding-left: 100px;
-    color: #ffd31a;
+    color: #d3f707;
 }
 
 .home {
