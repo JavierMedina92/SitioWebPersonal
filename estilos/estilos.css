@@ -252,6 +252,12 @@ a:hover {
     text-align: center;
     margin-bottom: 20px;
   }
+
+  .campo textarea {
+    /* Estilo específico para el textarea dentro de un campo */
+    max-height: 50vh; /* Ajusta la altura máxima según tu diseño */
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
   
   .campo {
     margin-bottom: 15px;
@@ -294,9 +300,6 @@ a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  #oculto {
-    opacity: 0;
-  }
 /*-------------- Contacto --------------------------------------------------*/
 
   

@@ -35,27 +35,27 @@
     <!-- Formulario -->
     <div class="formulario">
       <h2>Formulario de Contacto</h2>
-      <form id="form" action="" method="POST">        
+      <form id="form" action="https://formsubmit.co/javiermedina0192@gmail.com" method="POST">        
         <div class="campo">
           <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="name" required>
+          <input type="text" id="nombre" placeholder="Nombre Completo" name="name" required>
         </div>
         <div class="campo">
           <label for="empresa">Empresa:</label>
-          <input type="text" id="empresa" name="empresa" required>
+          <input type="text" id="empresa" placeholder="Empresa o Negocio" name="empresa" required>
         </div>
         <div class="campo">
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" placeholder="Correo Personal o Empresarial" name="email" required>
         </div>
         <div class="campo">
           <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono" required>
+          <input type="tel" id="telefono" placeholder="Telefono" name="telefono" required>
         </div>
         <div class="campo">
-          <label for="affair">Asunto:</label>
-          <select name="Asuntos" id="affair" required>
-            <option value="" disabled selected>Selecciona una opción</option>
+          <label for="javiermedina0192@gmail.com">Asunto:</label>
+          <select name="Asuntos" id="" required>
+            <option value="select" >Selecciona una opción</option>
             <option value="website">Sitio Web</option>
             <option value="price">Cotización</option>
             <option value="employment">Oferta Laboral</option>
@@ -65,9 +65,14 @@
         </div>
         <div class="campo">
           <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe aqui" rows="4" required></textarea>
         </div>
+
         <button type="submit">Enviar</button>
+
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+        <input type="hidden" name="_captcha" value"false">
+
       </form>
       <!-- <a href="mailto:javiermedina0192@gmail.com" id="oculto">mail</a> -->
     </div>
