@@ -32,43 +32,46 @@
         </div>
     </div>
 
-<div class="formulario">
-  <h2>Formulario de Contacto</h2>
-  <form action="" method="POST">        
-    <div class="campo">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="name" required>
+    <!-- Formulario -->
+    <div class="formulario">
+      <h2>Formulario de Contacto</h2>
+      <form id="form" action="" method="POST">        
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="name" required>
+        </div>
+        <div class="campo">
+          <label for="empresa">Empresa:</label>
+          <input type="text" id="empresa" name="empresa" required>
+        </div>
+        <div class="campo">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="campo">
+          <label for="affair">Asunto:</label>
+          <select name="Asuntos" id="affair" required>
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="website">Sitio Web</option>
+            <option value="price">Cotización</option>
+            <option value="employment">Oferta Laboral</option>
+            <option value="support">Soporte Técnico</option>
+            <option value="advisory">Asesoría Tecnológica</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+      <!-- <a href="mailto:javiermedina0192@gmail.com" id="oculto">mail</a> -->
     </div>
-    <div class="campo">
-      <label for="empresa">Empresa:</label>
-      <input type="text" id="empresa" name="empresa" required>
-    </div>
-    <div class="campo">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    <div class="campo">
-      <label for="telefono">Teléfono:</label>
-      <input type="tel" id="telefono" name="telefono" required>
-    </div>
-    <div class="campo">
-      <label for="affair">Asunto:</label>
-      <select name="Asuntos" id="affair">
-        <option value="website">Sitio Web</option>
-        <option value="price">Cotización</option>
-        <option value="employment">Oferta Laboral</option>
-        <option value="support">Soporte Técnico</option>
-        <option value="advisory">Asesoría Tecnológica</option>
-      </select>
-    </div>
-    <div class="campo">
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-    </div>
-    <button type="submit">Enviar</button>
-  </form>
-</div>
-
+        <!-- Formulario -->
 
     <!-- enlaces informativos -->
     <nav class="home">
@@ -98,19 +101,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-    <script src="formulario.js"></script>
     <script src="js/app.js"></script>
-
-
     <footer>Todos Los Derechos Reservados Desarrollo Web Javier Medina</footer>
 </body>
 </html>

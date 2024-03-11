@@ -153,7 +153,7 @@ a:hover {
 
 .credencial {
     width: 500px;
-    border: 2px solid #05f3f3;
+    border: 2px solid #023838;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -188,7 +188,6 @@ a:hover {
 /*------------------------------------- Sobre Mi----------------------------------------------- */
 
 /*-------------- Contacto --------------------------------------------------*/
-
 .contenido{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -213,7 +212,8 @@ a:hover {
 }
 
 .formacion {
-    padding-left: 100px;
+    padding: 20px;
+    padding-left: px;
     color: #d3f707;
 }
 
@@ -245,6 +245,7 @@ a:hover {
     border: 1px solid #ccc;
     border-radius: 20px;
     background: linear-gradient(rgb(14, 14, 221), rgb(204, 5, 187));
+    color: #cbf707;
   }
   
   .formulario h2 {
@@ -292,5 +293,10 @@ a:hover {
     color: #d3f707;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
+  #oculto {
+    opacity: 0;
+  }
+/*-------------- Contacto --------------------------------------------------*/
 
   
