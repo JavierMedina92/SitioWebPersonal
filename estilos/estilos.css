@@ -98,8 +98,8 @@ a:hover {
 
 .servicios {
     display: grid;
-        grid-template-columns: repeat(3, 1fr); /**Sintaxis alternativa  33.3% 33.% 33**/
-        column-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr); /**Sintaxis alternativa  33.3% 33.% 33**/
+    column-gap: 1rem;
 }
 
 .service {
@@ -183,8 +183,6 @@ a:hover {
   nya, p {
     margin: 5px 0;
   }
-
-
 /*------------------------------------- Sobre Mi----------------------------------------------- */
 
 /*-------------- Contacto --------------------------------------------------*/
@@ -302,4 +300,44 @@ a:hover {
 
 /*-------------- Contacto --------------------------------------------------*/
 
-  
+/*--------------------- Proyectos ---------------------------------------- */
+
+
+
+.hpor {
+    text-align: center;
+    background: linear-gradient(rgb(14, 14, 221), rgb(204, 5, 187));
+    color: #cbf707;
+}
+
+.p-proyectos {
+    width: 500px;
+    background-color: rgb(11, 94, 247);
+    margin: 0 auto;
+    color: rgb(25, 230, 165);
+    text-align: center;
+    font-size:larger;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.credencial-proyectos {
+    width: 500px;
+    border: 2px solid #023838;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #1f22c7;
+    border-radius: 30px;
+    color: #cbf707;
+    margin-right: 200px
+    
+}
+
+.contenedor-credenciales {
+    display: flex; /* Alinear elementos en una fila */
+    padding: 25px;
+  }
+
+
+/*--------------------- Proyectos ---------------------------------------- */
