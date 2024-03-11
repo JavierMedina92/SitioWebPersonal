@@ -118,6 +118,12 @@ a:hover {
 }
 
 /*------------------------------------- Sobre Mi----------------------------------------------- */
+.titulo {
+    text-align: center;
+    color: #e5f508;
+    background: linear-gradient(rgb(14, 14, 221), rgb(204, 5, 187));
+}
+
 .dwjm
 {
     display: block;
@@ -130,12 +136,6 @@ a:hover {
     font-size: large;
 }
 
-.titulo {
-    text-align: center;
-    color: #e5f508;
-    background: linear-gradient(rgb(14, 14, 221), rgb(204, 5, 187));
-}
-
 .sobremi {
     padding-left: 175px;
     color: #ffd31a;
@@ -146,6 +146,43 @@ a:hover {
     color: #ffd31a;
 }
 
+.contenido-sm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.credencial {
+    width: 500px;
+    border: 2px solid #05f3f3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #1f22c7;
+    border-radius: 30px;
+    color: #cbf707;
+  }
+
+  .img-2 { 
+    width: 200px;
+    height: 200px;
+    border-radius: 35px;
+  }
+  
+  .foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 25px;
+  }
+  
+  .informacion {
+    flex-grow: 1;
+  }
+  
+  nya, p {
+    margin: 5px 0;
+  }
 
 
 /*------------------------------------- Sobre Mi----------------------------------------------- */
@@ -156,7 +193,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
-} 
+}
 
 .pcontacto {
     display: block;
