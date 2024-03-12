@@ -333,9 +333,8 @@ a:hover {
 }
 
 .contenedor-credenciales {
-    display: flex; /* Alinear elementos en una fila */
+    display: flex;
     padding: 25px;
   }
-
 
 /*--------------------- Proyectos ---------------------------------------- */
