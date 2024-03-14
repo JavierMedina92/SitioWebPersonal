@@ -338,11 +338,11 @@ a:hover {
     padding: 25px;
   }
 
-.informacion-2 a{
+.informacion-c a{
     color: rgb(232, 248, 12);
     text-decoration: none;
     display: block;
-    background-color: #0b1af1;
+    background-color: #0bcff1;
     padding: 5px 10px;
     width: 95px;
     border-radius: 10px;
@@ -350,15 +350,25 @@ a:hover {
     font-size: large;
 }
 
+.informacion-c a:hover {
+    background-color: orangered;
+    color: #39f809;
+}
 
 #agradecimientoBtn {
     display: block;
     width: 100px;
-    text-align: center;
 }
 
 #agradecimientoBtn:hover {
-    background-color: #b0b300;
+    background-color: #eff308;
     color: rgb(32, 145, 9);
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
 }
 /*--------------------- Proyectos ---------------------------------------- */
